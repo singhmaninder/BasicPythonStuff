@@ -51,3 +51,10 @@ if __name__ == "__main__":
     fourth_day = sum([first_day, second_day, third_day])
 
     print fourth_day
+	
+# output is below:
+# Number of patients: 20
+# Number of patients: 30
+# Number of patients: 50
+# Number of patients: 100
+
