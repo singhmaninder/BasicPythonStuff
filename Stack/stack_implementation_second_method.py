@@ -52,20 +52,21 @@ class Stack(object):
         """
         return self.items
 
-s = Stack()
-print s.is_empty()
-s.push(4)
-s.push('Maninder')
-print s.peek()
-s.push(True)
-print s.size()
-print s.is_empty()
-s.push(8.4)
-print s.pop()
-print s.pop()
-print s.size()
+if __name__ == '__main__':
+    s = Stack()
+    print s.is_empty()
+    s.push(4)
+    s.push('Maninder')
+    print s.peek()
+    s.push(True)
+    print s.size()
+    print s.is_empty()
+    s.push(8.4)
+    print s.pop()
+    print s.pop()
+    print s.size()
 
-print s.get_stack()
+    print s.get_stack()
 
 # Output: True
 # Maninder
