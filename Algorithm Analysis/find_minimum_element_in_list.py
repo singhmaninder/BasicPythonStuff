@@ -11,7 +11,7 @@ class FindMinimumListNumber(object):
         """ This method returns the minimum number in 
             the list having complexity O(n2).
         """
-        # We use bubble sort alogrithm here
+        # We use bubble sort algorithm here
         for num in range(len(num_list) - 1, 0, -1):
             for n in range(num):
                 if num_list[n] > num_list[n+1]:
