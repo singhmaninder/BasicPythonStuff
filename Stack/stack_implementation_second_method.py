@@ -46,11 +46,7 @@ class Stack(object):
             of the stack.
         """
         return len(self.items)
-    
-    def get_stack(self):
-        """ This method returns the stack.
-        """
-        return self.items
+
 
 if __name__ == '__main__':
     s = Stack()
@@ -66,7 +62,7 @@ if __name__ == '__main__':
     print s.pop()
     print s.size()
 
-    print s.get_stack()
+    print s.items
 
 # Output: True
 # Maninder

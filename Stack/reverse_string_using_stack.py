@@ -14,7 +14,7 @@ class ReverseString(object):
             for char in input_string:
                 s.push(char)
     
-            return ''.join(s.get_stack())
+            return ''.join(s.items)
         else:
             return 'String is empty.'
 
