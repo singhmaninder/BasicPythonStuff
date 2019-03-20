@@ -1,3 +1,2 @@
-# BasicPythonStuff
-
-This repository contains basic Python programs for learning purpose.
+# Data Structure & Algorithms
+An introduction to data structures and algorithms, including their design, analysis and implementation by using Python.
