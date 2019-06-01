@@ -91,3 +91,4 @@ anagram_solver = AnagramSolver()
 print anagram_solver.anagram_solution1('heart', 'earth')
 print anagram_solver.anagram_solution2('abcd', 'cbad')
 print anagram_solver.anagram_solution3('apple', 'pleap')
+
