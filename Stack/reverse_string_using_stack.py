@@ -21,8 +21,8 @@ class ReverseString(object):
 
 if __name__ == '__main__':
     r1 = ReverseString()
-    print r1.reverse_string('Maninder Singh')
-    print r1.reverse_string('Once there was a crow')
+    print(r1.reverse_string('Maninder Singh'))
+    print(r1.reverse_string('Once there was a crow'))
 
 # Output: hgniS redninaM
 # worc a saw ereht ecnO

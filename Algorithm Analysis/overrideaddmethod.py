@@ -42,15 +42,15 @@ if __name__ == "__main__":
     first_day = Hospital(20)
     second_day = Hospital(30)
 
-    print first_day
-    print second_day
+    print(first_day)
+    print(second_day)
     third_day = first_day + second_day
 
-    print third_day
+    print(third_day)
 
     fourth_day = sum([first_day, second_day, third_day])
 
-    print fourth_day
+    print(fourth_day)
 	
 # output is below:
 # Number of patients: 20

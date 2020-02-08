@@ -49,19 +49,19 @@ class Stack(object):
 
 if __name__ == '__main__':
     s = Stack()
-    print s.is_empty()
+    print(s.is_empty())
     s.push(4)
     s.push('Maninder')
-    print s.peek()
+    print(s.peek())
     s.push(True)
-    print s.size()
-    print s.is_empty()
+    print(s.size())
+    print(s.is_empty())
     s.push(8.4)
-    print s.pop()
-    print s.pop()
-    print s.size()
+    print(s.pop())
+    print(s.pop())
+    print(s.size())
 
-    print s.items
+    print(s.items)
 
 # Output: True
 # Maninder

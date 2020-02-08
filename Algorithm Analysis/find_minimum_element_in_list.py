@@ -42,5 +42,5 @@ num_list = [54,26,93,17,77,31,44,55,20,150]
 min_num_high_complexity = find_min_num.find_minimum_number_with_high_complexity(num_list)
 min_num = find_min_num.find_minimum_number(num_list)
 
-print 'min_num_high_complexity', min_num_high_complexity
-print 'min_num', min_num
+print('min_num_high_complexity', min_num_high_complexity)
+print('min_num', min_num)

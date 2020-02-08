@@ -55,8 +55,8 @@ f2 = Fraction(2, 3)
 f3 = Fraction(2, 3)
 
 
-print f1 + f2
-print f1 == f2
-print f2 == f3
-print f1 * f3 * f2
+print(f1 + f2)
+print(f1 == f2)
+print(f2 == f3)
+print(f1 * f3 * f2)
 

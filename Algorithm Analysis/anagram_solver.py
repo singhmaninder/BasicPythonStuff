@@ -88,7 +88,7 @@ class AnagramSolver(object):
         return still_ok
 
 anagram_solver = AnagramSolver()
-print anagram_solver.anagram_solution1('heart', 'earth')
-print anagram_solver.anagram_solution2('abcd', 'cbad')
-print anagram_solver.anagram_solution3('apple', 'pleap')
+print(anagram_solver.anagram_solution1('heart', 'earth'))
+print(anagram_solver.anagram_solution2('abcd', 'cbad'))
+print(anagram_solver.anagram_solution3('apple', 'pleap'))
 

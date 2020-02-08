@@ -32,11 +32,11 @@ def matches_symbols(opening_symbol, closing_symbol):
     closes = ')]}'
     return opens.index(opening_symbol) == closes.index(closing_symbol)
 
-print symbols_checker('(())')
-print symbols_checker('(()))')
-print symbols_checker('({)}')
-print symbols_checker('({})')
-print symbols_checker('{{([][])}()}')
+print(symbols_checker('(())'))
+print(symbols_checker('(()))'))
+print(symbols_checker('({)}'))
+print(symbols_checker('({})'))
+print(symbols_checker('{{([][])}()}'))
 
 #Output : True
 # False
